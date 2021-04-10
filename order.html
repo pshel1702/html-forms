@@ -39,33 +39,35 @@
 
     <p>Your name:</p>
     <input
-      type ="text"
-      name ="name"
+      type="text"
+      name="name"
     >
 
     <p>Who are we sending this to?</p>
     <input
-        type ="text"
-        name ="recipient"
+        type="text"
+        name="recipient">
 
     <p>Choose a melon:</p>
     <select name="melon">
       <option value='watermelon'>Watermelon</option>
       <option value='cantelope'>Canteloupe</option>
       <option value='honeydew'>Honeydew</option>
+    </select>
+
+    <p>When should we deliver?</p>
+    <input type="radio" name="time" value="am"> Morning 
+    <input type="radio" name="time" value="pm"> Evening
+    <input type="radio" name="time" value="any"> Any time
+
+    <p>Enter your message:</p>
+    <textarea name="message">
+    </textarea>
+
+    <p>Subscribe to our newsletter</p>
+    <input type="checkbox" name="subscribe" value="yes"> Yes
     
-    
-  </select>
-
-    When should we deliver?
-    Morning
-    Evening
-    Any time
-
-    Enter your message:
-
-    Subscribe to our newsletter
-    Yes
+    <button type="submit">Submit</button>
 
    </form>
 
